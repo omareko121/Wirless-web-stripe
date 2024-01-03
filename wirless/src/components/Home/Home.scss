@@ -1,0 +1,19 @@
+@import "../../css-config/mixins.scss";
+@import url('https://fonts.googleapis.com/css2?family=Cairo&family=Readex+Pro&display=swap');
+
+.main-content {
+    .layout {
+        max-width: calc(100% - 20px);
+        margin: 0 auto;
+        @include md {
+            max-width: 1200px;
+        }
+    }
+
+    
+}
+
+.h1style{
+  font-size: 300px;
+  font-family: 'Readex Pro', sans-serif;
+}
